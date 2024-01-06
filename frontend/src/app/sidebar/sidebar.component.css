@@ -1,0 +1,13 @@
+.animate-show {
+    width: 65px;
+}
+.animate-show:hover {
+    animation-name: show;
+    animation-duration: 1s;
+    @keyframes show {
+        0%,
+        100% {
+            width: 280px;
+        }
+    }
+}
